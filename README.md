@@ -151,7 +151,7 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 
 ## 📰 Poster
 <p align="center">
-  <img src="images/PosterNhom1.png" alt="System Architecture" width="800"/>
+  <img src="FaceID/detectPeople/owner_images/poster.PNG" alt="System Architecture" width="800"/>
 </p>
 
 ## 🤝 Đóng góp
