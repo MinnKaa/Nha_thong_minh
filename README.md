@@ -148,38 +148,6 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 
     python TaoQR.py
 
-## 📖 Hướng dẫn sử dụng
-1️⃣ Điểm danh qua QR code
-
-- Sinh viên nhận email chứa mã QR.
-- Khi quét mã, trình duyệt sẽ gửi yêu cầu điểm danh đến Flask server.
-- Hệ thống kiểm tra tính hợp lệ và cập nhật vào MongoDB, đồng thời điều khiển Arduino:
-    - ✅ Điểm danh đúng hạn → LED xanh.
-    - ⏳ Điểm danh trễ → LED đỏ, còi, phát thông báo.
-    
-2️⃣ Quản lý sinh viên & mã QR
-- Qua giao diện của TaoQR.py, bạn có thể:
-    - Thêm, sửa, xóa thông tin sinh viên.
-    - Nhập/xuất danh sách sinh viên từ/đến file CSV.
-    - Tạo QR cho sinh viên theo lớp hoặc toàn bộ sinh viên.
-    - Xóa mã QR cũ một cách thủ công.
-
-3️⃣ Xem lịch sử điểm danh
-- Qua giao diện của Diemdanh.py, bạn có thể:
-    - Lọc danh sách điểm danh theo ngày, lớp, trạng thái.
-    - Xuất dữ liệu điểm danh ra file CSV.
-    - Hệ thống tự động cập nhật và chốt các phiên điểm danh.
-
-## ⚙️ Cấu hình & Ghi chú
-
-1. Cổng Arduino: 
-- Mặc định sử dụng COM5, có thể cập nhật trong `chuongTrinh.py`.
-2. Email gửi mã QR:
-- Trong `TaoQR.py`, cập nhật thông tin *sender_email* và *sender_password*.(sender email là địa chỉ email gửi, sender password là mật khẩu ứng dụng của email đó.)
-3. Thời gian hiệu lực mã QR: 
-- Mã QR có hiệu lực 100 phút kể từ thời điểm tạo.
-4. Môi trường mạng: 
-- Thiết bị quét QR cần kết nối cùng mạng với máy chủ.
 
 ## 📰 Poster
 <p align="center">
@@ -192,7 +160,7 @@ Dự án được phát triển bởi 4 thành viên:
 | Họ và Tên            | Vai trò                  |
 |----------------------|--------------------------|
 | Nguyễn Ngọc Bảo Long | Phát triển toàn bộ mã nguồn, thiết kế cơ sở dữ liệu, kiểm thử, triển khai dự án và thực hiện video giới thiệu.|
-| Nguyễn Đức Minh      | Biên soạn tài liệu Overleaf, Poster, Powerpoint, thuyết trình, đề xuất cải tiến, và hỗ trợ bài tập lớn.|
+| Vũ Đức Minh      | Biên soạn tài liệu Overleaf, Poster, Powerpoint, thuyết trình, đề xuất cải tiến, và hỗ trợ bài tập lớn.|
 | Nguyễn Đình Khánh    | Thiết kế slide PowerPoint, hỗ trợ bài tập lớn.  |
 | Nguyễn Đức Đại       | Hỗ trợ bài tập lớn       |
 
