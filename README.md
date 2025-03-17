@@ -160,7 +160,7 @@ Dự án được phát triển bởi 4 thành viên:
 | Họ và Tên            | Vai trò                  |
 |----------------------|--------------------------|
 | Nguyễn Ngọc Bảo Long | Phát triển toàn bộ mã nguồn, thiết kế cơ sở dữ liệu, kiểm thử, triển khai dự án và thực hiện video giới thiệu.|
-| Vũ Đức Minh      | Biên soạn tài liệu Overleaf, Poster, Powerpoint, thuyết trình, đề xuất cải tiến, và hỗ trợ bài tập lớn.|
+| Vũ Đức Minh          | Biên soạn tài liệu Overleaf, Poster, Powerpoint, thuyết trình, đề xuất cải tiến, và hỗ trợ bài tập lớn.|
 | Nguyễn Đình Khánh    | Thiết kế slide PowerPoint, hỗ trợ bài tập lớn.  |
 | Nguyễn Đức Đại       | Hỗ trợ bài tập lớn       |
 
